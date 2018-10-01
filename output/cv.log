@@ -1,0 +1,108 @@
+open source     > level 1, order 1, name '/Applications/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv'
+system          > 
+system          > ConTeXt  ver: 2018.09.24 14:11 MKIV beta  fmt: 2018.9.24  int: english/english
+system          > 
+system          > 'cont-new.mkiv' loaded
+open source     > level 2, order 2, name '/Applications/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv'
+system          > beware: some patches loaded from cont-new.mkiv
+close source    > level 2, order 2, name '/Applications/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv'
+system          > files > jobname 'cv', input './cv', result 'cv'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+open source     > level 2, order 3, name '/Users/modonovan/cv/output/cv.tex'
+colors          > defining > unknown library 'hex'
+open source     > level 3, order 4, name '/Applications/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
+close source    > level 3, order 4, name '/Applications/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
+structure       > sectioning > subsection @ level 4 : 0.0.0.1 -> Certifications and Qualifications
+structure       > sectioning > subsection @ level 4 : 0.0.0.2 -> Work Experience
+structure       > sectioning > subsubsection @ level 5 : 0.0.0.2.1 -> June 2016 - Present
+structure       > sectioning > subsubsection @ level 5 : 0.0.0.2.2 -> March 2004 - May 2016
+backend         > xmp > using file '/Applications/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1, subpage 1
+structure       > sectioning > subsubsection @ level 5 : 0.0.0.2.3 -> May 2002 - March 2004
+structure       > sectioning > subsection @ level 4 : 0.0.0.3 -> Volunteering
+structure       > sectioning > subsection @ level 4 : 0.0.0.4 -> Hobbies and interests
+pages           > flushing realpage 2, userpage 2, subpage 2
+structure       > sectioning > subsection @ level 4 : 0.0.0.5 -> Referees and references
+pages           > flushing realpage 3, userpage 3, subpage 3
+close source    > level 2, order 4, name '/Users/modonovan/cv/output/cv.tex'
+close source    > level 1, order 4, name '/Applications/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv'
+
+system          > start used files
+
+system          > text: cv
+
+system          > stop used files
+
+
+system          > start used files
+
+system          >    1: filename=char-prv.lua filetype=tex format=tex foundname=/Applications/context/tex/texmf-context/tex/context/base/mkiv/char-prv.lua fullname=/Applications/context/tex/texmf-context/tex/context/base/mkiv/char-prv.lua usedmethod=database
+system          >    2: filename=cont-yes.mkiv filetype=tex foundname=/Applications/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv fullname=/Applications/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
+system          >    3: filename=publ-imp-default.lua filetype=lua foundname=/Applications/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua fullname=/Applications/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+system          >    4: filename=cont-new.mkiv filetype=tex foundname=/Applications/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv fullname=/Applications/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
+system          >    5: filename=lang-exc.lua filetype=lua foundname=/Applications/context/tex/texmf-context/tex/context/base/mkiv/lang-exc.lua fullname=/Applications/context/tex/texmf-context/tex/context/base/mkiv/lang-exc.lua usedmethod=database
+system          >    6: filename=lang-us.lua filetype=lua foundname=/Applications/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua fullname=/Applications/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+system          >    7: filename=/Users/modonovan/cv/output/cv.tex foundname=/Users/modonovan/cv/output/cv.tex fullname=/Users/modonovan/cv/output/cv.tex usedmethod=direct
+system          >    8: filename=type-imp-texgyre.mkiv filetype=tex foundname=/Applications/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv fullname=/Applications/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv usedmethod=database
+system          >    9: filename=lm.lfg filetype=tex foundname=/Applications/context/tex/texmf-context/tex/context/fonts/mkiv/lm.lfg fullname=/Applications/context/tex/texmf-context/tex/context/fonts/mkiv/lm.lfg usedmethod=database
+system          >   10: filename=texgyreheros-regular filetype=otf format=otf foundname=/Applications/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf fullname=/Applications/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf usedmethod=database
+system          >   11: filename=latinmodern-math.otf filetype=opentypefonts foundname=/Applications/context/tex/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf fullname=/Applications/context/tex/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+system          >   12: filename=texgyreheros-bold filetype=otf format=otf foundname=/Applications/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf fullname=/Applications/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf usedmethod=database
+system          >   13: filename=lmmonolt10-bold filetype=otf format=otf foundname=/Applications/context/tex/texmf/fonts/opentype/public/lm/lmmonolt10-bold.otf fullname=/Applications/context/tex/texmf/fonts/opentype/public/lm/lmmonolt10-bold.otf usedmethod=database
+system          >   14: filename=lpdf-pdx.xml filetype=tex foundname=/Applications/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml fullname=/Applications/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+system          >   15: filename=texgyreheros-bolditalic filetype=otf format=otf foundname=/Applications/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyreheros-bolditalic.otf fullname=/Applications/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyreheros-bolditalic.otf usedmethod=database
+
+system          > stop used files
+
+
+system          > start commandline options
+
+system          > currentrun="3"
+system          > fulljobname="./cv.tex"
+system          > input="./cv.tex"
+system          > kindofrun="2"
+system          > maxnofruns="9"
+system          > no-parse-first-line="true"
+
+system          > stop commandline options
+
+
+system          > start commandline files
+
+system          >    1: ./cv.tex
+
+system          > stop commandline files
+
+
+modules         > start used modules
+
+
+modules         > stop used modules
+
+
+mkiv lua stats  > used config file: selfautoparent:/texmf/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: readable+writable: '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e'
+mkiv lua stats  > resource resolver: loadtime 0.006 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 15 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 440 modules (0.282 sec), 93 tables (0.018 sec), 533 chunks (0.300 sec)
+mkiv lua stats  > traced context: maxstack: 1329, freed: 0, unreachable: 1329
+mkiv lua stats  > cleaned up reserved nodes: 65 nodes, 9 lists of 455
+mkiv lua stats  > node memory usage: 2 glue, 2 kern, 2 penalty, 14 attribute, 50 glue_spec, 4 attribute_list, 2 temp, 2 user_defined
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 531 calls
+mkiv lua stats  > h-node processing time: 0.020 seconds including kernel
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > jobdata time: 0.002 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: internal: 1124, file: 717, direct: 2, late: 22, function 1061, total: 2926 (1463 per page)
+mkiv lua stats  > randomizer: resumed with value 0.7704100087285
+mkiv lua stats  > loaded patterns: en::2, load time: 0.000
+mkiv lua stats  > interactive elements: 6 references, 8 destinations
+mkiv lua stats  > result saved in file: cv.pdf, compresslevel 3, objectcompresslevel 3
+mkiv lua stats  > loaded fonts: 5 files: latinmodern-math.otf, lmmonolt10-bold.otf, texgyreheros-bold.otf, texgyreheros-bolditalic.otf, texgyreheros-regular.otf
+mkiv lua stats  > font engine: otf 3.104, afm 1.513, tfm 1.000, 13 instances, 8 shared in backend, 1 common vectors, 7 common hashes, load time 0.255 seconds 
+mkiv lua stats  > pdf annotations: 6 links (6 unique), 0 special
+mkiv lua stats  > used platform: osx-64, type: unix, binary subtree: texmf-osx-64
+mkiv lua stats  > used engine: luatex version 1.09 with functionality level 6930, banner: this is luatex, version 1.09.0 (tex live 2019/dev)
+mkiv lua stats  > control sequences: 45691 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 94 MB (ctx: 94 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.789 seconds, 3 processed pages, 3 shipped pages, 3.802 pages/second
+
