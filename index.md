@@ -2,7 +2,20 @@
 title: Mick O'Donovan
 ---
 
-**Location:** Dublin 11, Ireland - **Phone:** +353 (0) 834208251 - **Email:** [mick@mickod.ie](mailto:mick@mickod.ie) - **Linkedin:** [https://www.linkedin.com/in/mick-o-donovan](https://www.linkedin.com/in/mick-o-donovan)
+**Location:** Dublin 11, Ireland - **Phone:** +353 (0) 834208251 - **Email:** [mick@mickod.ie](mailto:mick@mickod.ie) - 
+**Linkedin:** [https://www.linkedin.com/in/mick-o-donovan](https://www.linkedin.com/in/mick-o-donovan)
+
+Professional Summary
+---------
+
+A passionate member of the Network Engineering community for close to 20 years. As well as a grounding on technical helpdesks and more recently providing consultative sales support as a Pre Sales Engineer, Network Engineering is where my passion lies. I am a well respected and active member of many Networking communities such as [INOG](https://inog.net) where I am a member of the Program Committe and [INEX](https://www.inex.ie) which are over and above my day to day employment. Calm in a crisis and keen to learn new work practices and technologies. I have earned many of my skills and certifications through self training and studying. Looking for the next challenge back in a role in Network Engineering preferably one which allows me development my network automation skills.   
+
+Technical Skills
+---------
+
+
+
+
 
 Certifications and Qualifications
 ---------
@@ -20,7 +33,7 @@ Work Experience
 ###  June 2016 - Present
 :   **Data Sales Specialist**; [BT](http://www.btireland.com) (Dublin)
 
-I currently hold a position as a Data Sales Specialist with BT Ireland’s Business Sales department organisation. The primary responsibility that I have is to provide technical pre sales assistance to our Account Directors and Desk Based Sales Account managers. The role involves a lot of face to face meetings with external customers with the aim of providing them with assistance in ordering new data services from BT Ireland as well as promoting our data connectivity capabilities with a view to growing the business. Some other central skills involved in the roll would include;
+I provide technical pre sales assistance to our Account Directors and Desk Based Sales Account managers. The role involves a lot of face to face meetings with external customers with the aim of providing them with assistance in ordering new data services from BT Ireland as well as promoting our data connectivity capabilities with a view to growing the business. Some other central skills involved in the roll would include;
 
 * Configuring and pricing Managed WAN connectivity and services end to end
 * Working with commercial finance teams to devise an agreeable pricing model for new customer services
