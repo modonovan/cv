@@ -14,7 +14,7 @@ Technical Skills
 -------
 
 - **Proficient** - Routing, Switching, BGP, OSPF, MPLS, Traffic Engineering, Cisco, Juniper, Nokia SR, Peering, Transit, Solution Design, TCP/IP, IPv4, IPv6
-- **Advanced** - Linux, IPSEC, opennms, Nagios, LibreNMS, DWDM, SDH, PDH, Project Management
+- **Advanced** - Linux, IPSEC, opennms, Nagios, LibreNMS, DWDM, SDH, PDH, Project Management, Rancid, Bash scripting
 - **Beginner** - Ansible, Python, Ruby, Napalm, Load Balancers
 
 
