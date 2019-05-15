@@ -8,14 +8,14 @@ title: Mick O'Donovan
 Professional Summary
 ---------
 
-A passionate member of the Network Engineering community for over 15 years. As well as a grounding on technical helpdesks and more recently providing consultative sales support as a Pre Sales Engineer, Network Engineering is where my passion lies. I am a well respected and active member of many Networking communities such as [INOG](https://inog.net) where I am a member of the Program Committee and [INEX](https://www.inex.ie) which are over and above my day to day employment. Calm in a crisis and keen to learn new work practices and technologies. I have earned many of my skills and certifications through self training and studying. Looking for the next challenge back in a role in Network Engineering preferably one which allows me development my network automation skills.   
+A passionate member of the Network Engineering community for over 15 years. As well as a grounding on technical helpdesks and more recently providing consultative sales support as a Pre Sales Engineer, Network Engineering is where my passion lies. Well respected and active member of many Networking communities such as [INOG](https://inog.net) where I am a member of the Program Committee and [INEX](https://www.inex.ie) which are over and above my day to day employment. Calm in a crisis and keen to learn new work practices and technologies. I have earned many of my skills and certifications through self training and studying. Looking for the next challenge back in a role in Network Engineering preferably one which allows me development my network automation skills.   
 
 Technical Skills
 -------
 
-* **Proficient** - 
-* **Advanced** - 
-* **Beginner** - 
+**Proficient** - Routing, Switching, BGP, OSPF, MPLS, Traffic Engineering, Cisco, Juniper, Nokia SR, Peering, Transit, Solution Design
+**Advanced** - Linux, IPSEC, opennms, Nagios, LibreNMS, DWDM, SDH, PDH, Project Management
+**Beginner** - Ansible, Python, Ruby, Napalm, Load Balancers
 
 
 Certifications and Qualifications
@@ -44,7 +44,7 @@ I provide technical pre sales assistance to our Account Directors and Desk Based
 ###  March 2004 - May 2016
 :   **Network Optimization Engineer**; [BT](http://www.btireland.com) (Dublin)
 
-Until May 2016 I held a position as a Senior Network Professional with BT Ireland’s Networks department in the role of Network Optimization Engineer. The primary responsibility that I had was to provide 2nd and 3rd level support for our Layer 2 and Layer 3 network services. Support was provided to our internal customers such as the Network Control Centre and the Global Business Helpdesk as well as external customers directly.
+I provided 2nd and 3rd level support for our Layer 2 and Layer 3 network services. Support was provided to our internal customers such as the Network Control Centre and the Global Business Helpdesk as well as external customers directly.
 
 * Responsible for support and consultation on all BT Ireland Domestic ISP, Metro Ethernet, Government, MPLS, Layer 2 Transport and Data Communications Management Network (DCN).
 * Specializations in Cisco IOS, IOS-XR, IOS-XE and NXOS as well as ADVA, Nokia/Alcatel Lucent Service Router and Juniper router/switch platforms (JUNOS).
@@ -59,7 +59,7 @@ full rollout.
 ###   May 2002 - March 2004
 :   **Network Controller**; [BT](http://www.btireland.com) (Dublin)
 
-Between 2002 and 2004 I held a position as a Network Controller in the Network Management Centre of Esat BT, the Irish Control centre of the BT Group. In this role I was responsible for the management of the major networks of the then BT Ignite Group from our Dublin Control Centre. The main networks I would be responsible for fault managing were:
+Responsible for the management of the major networks of the then BT Ignite Group from our Dublin Control Centre. The main networks I fault managed were:
 
 * Lucent & Nortel PDH/SDH - Dublin Metro, and National backbone Telecommunications network of EsatBT. This requires a working knowledge of Nortel TN1x, 4x, 4xe, 16x, 16xe, 64x, etc.
 * IP, Frame-relay, ATM, wireless network management.
