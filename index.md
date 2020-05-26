@@ -8,7 +8,7 @@ title: Mick O'Donovan
 Professional Summary
 ---------
 
-A passionate member of the Network Engineering community for over 15 years. As well as a grounding on technical helpdesks and more recently providing consultative sales support as a Pre Sales Engineer, Network Engineering is where my passion lies. Well respected and active member of many Networking communities such as [INOG](https://inog.net) where I am a member of the Program Committee and [INEX](https://www.inex.ie) which are over and above my day to day employment. Calm in a crisis and keen to learn new work practices and technologies. I have earned many of my skills and certifications through self training and studying. Looking for the next challenge back in a role in Network Engineering preferably one which allows me development my network automation skills.   
+A passionate member of the Network Engineering community for over 15 years. As well as a grounding on technical helpdesks and more recently providing consultative sales support as a Pre Sales Engineer, Network Engineering is where my passion lies. Well respected and active member of many Networking communities such as [INOG](https://inog.net) where I am a member of the Program Committee and [INEX](https://www.inex.ie) which are over and above my day to day employment. Calm in a crisis and keen to learn new work practices and technologies. I have earned many of my skills and certifications through self training and studying. Looking for the next challenge back in a role in Network Engineering preferably one which allows me develop my network automation skills.   
 
 Technical Skills
 -------
