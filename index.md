@@ -13,7 +13,7 @@ A passionate member of the Network Engineering community for over 15 years. As w
 Technical Skills
 -------
 
-- **Proficient** - Routing, Switching, BGP, OSPF, MPLS, Traffic Engineering, Cisco, Juniper, Nokia SR, Peering, Transit, Solution Design, TCP/IP, IPv4, IPv6
+- **Proficient** - Routing, Switching, BGP, OSPF, MPLS, Traffic Engineering, Cisco, Juniper, Nokia SR, Unifi, Peering, Transit, Solution Design, TCP/IP, IPv4, IPv6
 - **Advanced** - Linux, IPSEC, opennms, Nagios, LibreNMS, DWDM, SDH, PDH, Project Management, Rancid, Bash scripting
 - **Beginner** - Ansible, Python, Ruby, Napalm, Load Balancers
 

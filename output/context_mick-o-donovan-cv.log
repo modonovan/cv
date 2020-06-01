@@ -1655,19 +1655,19 @@ system          >   luatex.paramsize = 25000 (overloaded)
 system          >   luatex.savesize = 100000 (preset kept)
 system          >   luatex.stacksize = 10000 (overloaded)
 
-format banner   > ConTeXt  ver: 2018.04.04 00:51 MKIV beta  fmt: 2020.5.26  int: english/english
+format banner   > ConTeXt  ver: 2018.04.04 00:51 MKIV beta  fmt: 2020.6.1  int: english/english
 
 Beginning to dump on file cont-en.fmt
- (format=cont-en 2020.5.26)
-48133 strings using 789122 bytes
-1174253 memory locations dumped; current usage is 408&585724
+ (format=cont-en 2020.6.1)
+48133 strings using 789121 bytes
+1174247 memory locations dumped; current usage is 408&585721
 44635 multiletter control sequences
 \font\nullfont=nullfont
 0 preloaded fonts
 
 mkiv lua stats  > used config file: selfautoparent:/texmfcnf.lua;selfautoparent:/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable+writable: '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9'
-mkiv lua stats  > resource resolver: loadtime 0.193 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 681 found files, scanned paths: <none>
+mkiv lua stats  > resource resolver: loadtime 0.207 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 681 found files, scanned paths: <none>
 mkiv lua stats  > stored bytecode data: 408 modules, 93 tables, 501 chunks, 100 chunks stripped (0 bytes)
 mkiv lua stats  > traced context: maxstack: 1286, freed: 0, unreachable: 1286
 mkiv lua stats  > cleaned up reserved nodes: 0 nodes, 9 lists of 453
@@ -1682,7 +1682,7 @@ mkiv lua stats  > font processing: [afm (base initializers: goodies mode feature
 mkiv lua stats  > used platform: osx-64, type: unix, binary subtree: bin
 mkiv lua stats  > used engine: luatex version 1.07 with functionality level 6686, banner: this is luatex, version 1.07.0 (tex live 2018)
 mkiv lua stats  > control sequences: 44635 of 65536 + 0
-mkiv lua stats  > lua properties: engine: lua 5.2, used memory: 127 MB (ctx: 126 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > lua properties: engine: lua 5.2, used memory: 126 MB (ctx: 125 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
 resolvers       | resolving | using suffix based filetype 'tex'
 resolvers       | methods | resolving, method 'concatinators', how 'tag', tag 'file'
 resolvers       | resolving | remembering file 'context.mkiv' using hash 'mkiv::context.mkiv'
@@ -1692,7 +1692,7 @@ This is LuaTeX, Version 1.07.0 (TeX Live 2018)
  system commands enabled.
 open source     > level 1, order 1, name '/usr/local/texlive/2018/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv'
 system          > 
-system          > ConTeXt  ver: 2018.04.04 00:51 MKIV beta  fmt: 2020.5.26  int: english/english
+system          > ConTeXt  ver: 2018.04.04 00:51 MKIV beta  fmt: 2020.6.1  int: english/english
 system          > 
 system          > 'cont-new.mkiv' loaded
 open source     > level 2, order 2, name '/usr/local/texlive/2018/texmf-dist/tex/context/base/mkiv/cont-new.mkiv'
@@ -1713,7 +1713,7 @@ fonts           > otf loading > loading done
 fonts           > otf loading > saving '/usr/local/texlive/2018/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf' in cache
 system          > lua > compiling '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/texgyreheros-regular.tma' into '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/texgyreheros-regular.tmc'
 system          > lua > dumping '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/texgyreheros-regular.tma' into '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/texgyreheros-regular.tmc' stripped
-fonts           > otf loading > loading, optimizing, packing and caching time 0.201
+fonts           > otf loading > loading, optimizing, packing and caching time 0.187
 fonts           > otf loading > loading '/usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf', hash 'latinmodern-math'
 otf reader      > adding soft hyphen
 otf reader      > duplicates: 1 : - (U+0002D) @ I0000E ­ (U+000AD)
@@ -1724,7 +1724,7 @@ fonts           > otf loading > loading done
 fonts           > otf loading > saving '/usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf' in cache
 system          > lua > compiling '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/latinmodern-math.tma' into '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/latinmodern-math.tmc'
 system          > lua > dumping '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/latinmodern-math.tma' into '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/latinmodern-math.tmc' stripped
-fonts           > otf loading > loading, optimizing, packing and caching time 0.788
+fonts           > otf loading > loading, optimizing, packing and caching time 0.677
 fonts           > otf loading > loading '/usr/local/texlive/2018/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf', hash 'texgyreheros-bold'
 otf reader      > turning pairs of step 1 of 'gpos_pair' lookup 'p_s_1' into kerns
 otf reader      > 1 steps of 24 steps turned from pairs into kerns
@@ -1734,7 +1734,7 @@ fonts           > otf loading > loading done
 fonts           > otf loading > saving '/usr/local/texlive/2018/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf' in cache
 system          > lua > compiling '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/texgyreheros-bold.tma' into '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/texgyreheros-bold.tmc'
 system          > lua > dumping '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/texgyreheros-bold.tma' into '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/texgyreheros-bold.tmc' stripped
-fonts           > otf loading > loading, optimizing, packing and caching time 0.993
+fonts           > otf loading > loading, optimizing, packing and caching time 0.867
 fonts           > otf loading > loading '/usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf', hash 'lmmonolt10-bold'
 otf reader      > not unicoded: dblgrave.ts1 star.alt
 otf reader      > 41 bogus names removed (verbose unicode)
@@ -1742,7 +1742,7 @@ fonts           > otf loading > loading done
 fonts           > otf loading > saving '/usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf' in cache
 system          > lua > compiling '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/lmmonolt10-bold.tma' into '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/lmmonolt10-bold.tmc'
 system          > lua > dumping '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/lmmonolt10-bold.tma' into '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/lmmonolt10-bold.tmc' stripped
-fonts           > otf loading > loading, optimizing, packing and caching time 1.108
+fonts           > otf loading > loading, optimizing, packing and caching time 0.956
 structure       > sectioning > subsection @ level 4 : 0.0.0.1 -> Professional Summary
 structure       > sectioning > subsection @ level 4 : 0.0.0.2 -> Technical Skills
 structure       > sectioning > subsection @ level 4 : 0.0.0.3 -> Certifications and Qualifications
@@ -1764,66 +1764,7 @@ fonts           > otf loading > loading done
 fonts           > otf loading > saving '/usr/local/texlive/2018/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bolditalic.otf' in cache
 system          > lua > compiling '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/texgyreheros-bolditalic.tma' into '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/texgyreheros-bolditalic.tmc'
 system          > lua > dumping '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/texgyreheros-bolditalic.tma' into '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/fonts/otl/texgyreheros-bolditalic.tmc' stripped
-fonts           > otf loading > loading, optimizing, packing and caching time 1.328
-structure       > sectioning > subsection @ level 4 : 0.0.0.7 -> Referees and references
-pages           > flushing realpage 3, userpage 3
-close source    > level 2, order 4, name '/Users/modonovan/cv/output/mick-o-donovan-cv.tex'
-close source    > level 1, order 4, name '/usr/local/texlive/2018/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv'
-
-mkiv lua stats  > used config file: selfautoparent:/texmfcnf.lua;selfautoparent:/texmf-dist/web2c/texmfcnf.lua
-mkiv lua stats  > used cache path: readable+writable: '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9'
-mkiv lua stats  > resource resolver: loadtime 0.389 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 15 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 410 modules (0.538 sec), 93 tables (0.018 sec), 503 chunks (0.556 sec)
-mkiv lua stats  > traced context: maxstack: 1286, freed: 0, unreachable: 1286
-mkiv lua stats  > cleaned up reserved nodes: 64 nodes, 9 lists of 453
-mkiv lua stats  > node memory usage: 2 glue, 2 kern, 2 penalty, 13 attribute, 50 glue_spec, 4 attribute_list, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 7 unique task lists, 7 instances (re)created, 550 calls
-mkiv lua stats  > h-node processing time: 0.023 seconds including kernel
-mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.003 seconds saving, 0.001 seconds loading
-mkiv lua stats  > callbacks: internal: 1836, file: 717, direct: 0, late: 0, function 0, total: 2553 (1277 per page)
-mkiv lua stats  > randomizer: resumed with value 0.98376570920635
-mkiv lua stats  > loaded patterns: en::2, load time: 0.000
-mkiv lua stats  > interactive elements: 8 references, 10 destinations
-mkiv lua stats  > result saved in file: mick-o-donovan-cv.pdf, compresslevel 3, objectcompresslevel 3
-mkiv lua stats  > loaded fonts: 5 files: latinmodern-math.otf, lmmonolt10-bold.otf, texgyreheros-bold.otf, texgyreheros-bolditalic.otf, texgyreheros-regular.otf
-mkiv lua stats  > font engine: otf 3.103, afm 1.513, tfm 1.000, 10 instances, 3 shared in backend, 0 common vectors, 3 common hashes, load time 1.759 seconds 
-mkiv lua stats  > pdf annotations: 8 links (8 unique), 0 special
-mkiv lua stats  > used platform: osx-64, type: unix, binary subtree: bin
-mkiv lua stats  > used engine: luatex version 1.07 with functionality level 6686, banner: this is luatex, version 1.07.0 (tex live 2018)
-mkiv lua stats  > control sequences: 46700 of 65536 + 100000
-mkiv lua stats  > lua properties: engine: lua 5.2, used memory: 226 MB (ctx: 227 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 3.01 seconds, 3 processed pages, 3 shipped pages, 0.997 pages/second
-mtx-context     | run 2: luatex --fmt="/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/formats/luatex/cont-en" --jobname="mick-o-donovan-cv" --lua="/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9/formats/luatex/cont-en.lui" --no-parse-first-line --c:currentrun=2 --c:fulljobname="./mick-o-donovan-cv.tex" --c:input="./mick-o-donovan-cv.tex" --c:kindofrun=2 --c:maxnofruns=9 "cont-yes.mkiv"
-
-This is LuaTeX, Version 1.07.0 (TeX Live 2018) 
- system commands enabled.
-open source     > level 1, order 1, name '/usr/local/texlive/2018/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv'
-system          > 
-system          > ConTeXt  ver: 2018.04.04 00:51 MKIV beta  fmt: 2020.5.26  int: english/english
-system          > 
-system          > 'cont-new.mkiv' loaded
-open source     > level 2, order 2, name '/usr/local/texlive/2018/texmf-dist/tex/context/base/mkiv/cont-new.mkiv'
-close source    > level 2, order 2, name '/usr/local/texlive/2018/texmf-dist/tex/context/base/mkiv/cont-new.mkiv'
-system          > files > jobname 'mick-o-donovan-cv', input './mick-o-donovan-cv', result 'mick-o-donovan-cv'
-fonts           > latin modern fonts are not preloaded
-languages       > language 'en' is active
-open source     > level 2, order 3, name '/Users/modonovan/cv/output/mick-o-donovan-cv.tex'
-colors          > defining > unknown library 'hex'
-open source     > level 3, order 4, name '/usr/local/texlive/2018/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
-close source    > level 3, order 4, name '/usr/local/texlive/2018/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
-structure       > sectioning > subsection @ level 4 : 0.0.0.1 -> Professional Summary
-structure       > sectioning > subsection @ level 4 : 0.0.0.2 -> Technical Skills
-structure       > sectioning > subsection @ level 4 : 0.0.0.3 -> Certifications and Qualifications
-structure       > sectioning > subsection @ level 4 : 0.0.0.4 -> Work Experience
-structure       > sectioning > subsubsection @ level 5 : 0.0.0.4.1 -> June 2016 - Present
-structure       > sectioning > subsubsection @ level 5 : 0.0.0.4.2 -> March 2004 - May 2016
-backend         > xmp > using file '/usr/local/texlive/2018/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml'
-pages           > flushing realpage 1, userpage 1, subpage 1
-structure       > sectioning > subsubsection @ level 5 : 0.0.0.4.3 -> May 2002 - March 2004
-structure       > sectioning > subsection @ level 4 : 0.0.0.5 -> Volunteering
-pages           > flushing realpage 2, userpage 2
-structure       > sectioning > subsection @ level 4 : 0.0.0.6 -> Hobbies and interests
+fonts           > otf loading > loading, optimizing, packing and caching time 1.150
 structure       > sectioning > subsection @ level 4 : 0.0.0.7 -> Referees and references
 pages           > flushing realpage 3, userpage 3
 close source    > level 2, order 4, name '/Users/modonovan/cv/output/mick-o-donovan-cv.tex'
@@ -1832,12 +1773,12 @@ close source    > level 1, order 4, name '/usr/local/texlive/2018/texmf-dist/tex
 mkiv lua stats  > used config file: selfautoparent:/texmfcnf.lua;selfautoparent:/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable+writable: '/var/folders/7k/5c_tch957mgfgc3v1hkpbh6r0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9'
 mkiv lua stats  > resource resolver: loadtime 0.126 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 15 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 410 modules (0.488 sec), 93 tables (0.015 sec), 503 chunks (0.503 sec)
+mkiv lua stats  > stored bytecode data: 410 modules (0.470 sec), 93 tables (0.015 sec), 503 chunks (0.486 sec)
 mkiv lua stats  > traced context: maxstack: 1286, freed: 0, unreachable: 1286
 mkiv lua stats  > cleaned up reserved nodes: 64 nodes, 9 lists of 453
 mkiv lua stats  > node memory usage: 2 glue, 2 kern, 2 penalty, 13 attribute, 50 glue_spec, 4 attribute_list, 2 temp, 2 user_defined
 mkiv lua stats  > node list callback tasks: 7 unique task lists, 7 instances (re)created, 550 calls
-mkiv lua stats  > h-node processing time: 0.022 seconds including kernel
+mkiv lua stats  > h-node processing time: 0.021 seconds including kernel
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
 mkiv lua stats  > jobdata time: 0.002 seconds saving, 0.001 seconds loading
 mkiv lua stats  > callbacks: internal: 1836, file: 717, direct: 0, late: 0, function 0, total: 2553 (1277 per page)
@@ -1846,12 +1787,12 @@ mkiv lua stats  > loaded patterns: en::2, load time: 0.000
 mkiv lua stats  > interactive elements: 8 references, 10 destinations
 mkiv lua stats  > result saved in file: mick-o-donovan-cv.pdf, compresslevel 3, objectcompresslevel 3
 mkiv lua stats  > loaded fonts: 5 files: latinmodern-math.otf, lmmonolt10-bold.otf, texgyreheros-bold.otf, texgyreheros-bolditalic.otf, texgyreheros-regular.otf
-mkiv lua stats  > font engine: otf 3.103, afm 1.513, tfm 1.000, 10 instances, 3 shared in backend, 0 common vectors, 3 common hashes, load time 0.196 seconds 
+mkiv lua stats  > font engine: otf 3.103, afm 1.513, tfm 1.000, 10 instances, 3 shared in backend, 0 common vectors, 3 common hashes, load time 1.443 seconds 
 mkiv lua stats  > pdf annotations: 8 links (8 unique), 0 special
 mkiv lua stats  > used platform: osx-64, type: unix, binary subtree: bin
 mkiv lua stats  > used engine: luatex version 1.07 with functionality level 6686, banner: this is luatex, version 1.07.0 (tex live 2018)
-mkiv lua stats  > control sequences: 46699 of 65536 + 100000
-mkiv lua stats  > lua properties: engine: lua 5.2, used memory: 170 MB (ctx: 171 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.933 seconds, 3 processed pages, 3 shipped pages, 3.215 pages/second
-system          | total runtime: 130.112 seconds
+mkiv lua stats  > control sequences: 46700 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua 5.2, used memory: 226 MB (ctx: 227 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 2.451 seconds, 3 processed pages, 3 shipped pages, 1.224 pages/second
+system          | total runtime: 127.711 seconds
 
