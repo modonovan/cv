@@ -2,7 +2,7 @@
 title: Mick O'Donovan
 ---
 
-**Location:** Dublin 11, Ireland - **Phone:** +353 (0) 834208251 - **Email:** [mick@mickod.ie](mailto:mick@mickod.ie) - 
+**Location:** Dublin 11, Ireland - **Phone:** +353 (0) XXXXXXXX (available on request) - **Email:** [mick@mickod.ie](mailto:mick@mickod.ie) - 
 **Linkedin:** [https://www.linkedin.com/in/mick-o-donovan](https://www.linkedin.com/in/mick-o-donovan)
 
 Professional Summary

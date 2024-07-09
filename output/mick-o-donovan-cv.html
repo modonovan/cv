@@ -6,14 +6,167 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Mick O’Donovan</title>
   <style>
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
   <style type="text/css">
   /*
    * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
@@ -23,7 +176,7 @@
    * This CSS document is delivered to you under the CC BY-SA 3.0 License.
    * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
    */
-  
+
   /* Whole document */
   body {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -32,7 +185,7 @@
       background: #FFFFFF;
       padding: 10px 10px 10px 10px;
   }
-  
+
   /* Title of the resume */
   h1 {
       font-size: 55px;
@@ -45,7 +198,7 @@
       color: #FFFFFF;
       text-shadow: 1px 1px 1px #333;
   }
-  
+
   /* Titles of categories */
   h2 {
       /* This is called "sectioncolor" in the ConTeXt stylesheet. */
@@ -66,7 +219,7 @@
       color: #FFFFFF;
       text-shadow: 1px 1px 1px #333;
   }
-  
+
   /* Definitions */
   dt {
       float: left;
@@ -81,12 +234,12 @@
       margin-top:0;
       margin-bottom:7px;
   }
-  
+
   /* Blockquotes */
   blockquote {
       text-align: center
   }
-  
+
   /* Links */
   a {
       text-decoration: none;
@@ -98,12 +251,12 @@
       text-decoration: none;
       text-shadow: 1px 1px 1px #333;
   }
-  
+
   /* Horizontal separators */
   hr {
       color: #A6A6A6;
   }
-  
+
   table {
       width: 100%;
   }
@@ -113,72 +266,156 @@
 <header id="title-block-header">
 <h1 class="title">Mick O’Donovan</h1>
 </header>
-<p><strong>Location:</strong> Dublin 11, Ireland - <strong>Phone:</strong> +353 (0) 834208251 - <strong>Email:</strong> <a href="mailto:mick@mickod.ie">mick@mickod.ie</a> - <strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/mick-o-donovan" target="_blank">https://www.linkedin.com/in/mick-o-donovan</a></p>
+<p><strong>Location:</strong> Dublin 11, Ireland -
+<strong>Phone:</strong> +353 (0) XXXXXXXX (available on request) -
+<strong>Email:</strong> <a
+href="mailto:mick@mickod.ie">mick@mickod.ie</a> -
+<strong>Linkedin:</strong> <a
+href="https://www.linkedin.com/in/mick-o-donovan"
+target="_blank">https://www.linkedin.com/in/mick-o-donovan</a></p>
 <h2 id="professional-summary">Professional Summary</h2>
-<p>A passionate member of the Network Engineering community for over 15 years. As well as a grounding on technical helpdesks and more recently providing consultative sales support as a Pre Sales Engineer, Network Engineering is where my passion lies. Well respected and active member of many Networking communities such as <a href="https://inog.net" target="_blank">INOG</a> where I am a member of the Program Committee and <a href="https://www.inex.ie" target="_blank">INEX</a> which are over and above my day to day employment. Calm in a crisis and keen to learn new work practices and technologies. I have earned many of my skills and certifications through self training and studying. Looking for the next challenge back in a role in Network Engineering preferably one which allows me develop my network automation skills.</p>
+<p>A passionate member of the Network Engineering community for over 15
+years. As well as a grounding on technical helpdesks and more recently
+providing consultative sales support as a Pre Sales Engineer, Network
+Engineering is where my passion lies. Well respected and active member
+of many Networking communities such as <a href="https://inog.net"
+target="_blank">INOG</a> where I am a member of the Program Committee
+and <a href="https://www.inex.ie" target="_blank">INEX</a> which are
+over and above my day to day employment. Calm in a crisis and keen to
+learn new work practices and technologies. I have earned many of my
+skills and certifications through self training and studying. Looking
+for the next challenge back in a role in Network Engineering preferably
+one which allows me develop my network automation skills.</p>
 <h2 id="technical-skills">Technical Skills</h2>
 <ul>
-<li><strong>Proficient</strong> - Routing, Switching, BGP, OSPF, MPLS, Traffic Engineering, Cisco, Juniper, Nokia SR, Unifi, Peering, Transit, Solution Design, TCP/IP, IPv4, IPv6</li>
-<li><strong>Advanced</strong> - Linux, IPSEC, opennms, Nagios, LibreNMS, DWDM, SDH, PDH, Project Management, Rancid, Bash scripting</li>
-<li><strong>Beginner</strong> - Ansible, Python, Ruby, Napalm, Load Balancers</li>
+<li><strong>Proficient</strong> - Routing, Switching, BGP, OSPF, MPLS,
+Traffic Engineering, Cisco, Juniper, Nokia SR, Unifi, Peering, Transit,
+Solution Design, TCP/IP, IPv4, IPv6</li>
+<li><strong>Advanced</strong> - Linux, IPSEC, opennms, Nagios, LibreNMS,
+DWDM, SDH, PDH, Project Management, Rancid, Bash scripting</li>
+<li><strong>Beginner</strong> - Ansible, Python, Ruby, Napalm, Load
+Balancers</li>
 </ul>
-<h2 id="certifications-and-qualifications">Certifications and Qualifications</h2>
+<h2 id="certifications-and-qualifications">Certifications and
+Qualifications</h2>
 <ul>
 <li>Cisco Certified Networks Professional CCNP, Self Training</li>
 <li>Cisco CCNA, July 2010, Self Training</li>
 <li>Alcatel Lucent NRS1, Vendor training and self study</li>
-<li>Sco Unix Administration, May 2002, Griffin Software Training Centre</li>
-<li>Computer Installation Service &amp; Maintenance, October 1999 – April 2000, Fas Training Centre, Baldoyle.</li>
-<li>1 Year Accounting &amp; Finance, September 1998 – October 1999, Dundalk Institute of Technology</li>
+<li>Sco Unix Administration, May 2002, Griffin Software Training
+Centre</li>
+<li>Computer Installation Service &amp; Maintenance, October 1999 –
+April 2000, Fas Training Centre, Baldoyle.</li>
+<li>1 Year Accounting &amp; Finance, September 1998 – October 1999,
+Dundalk Institute of Technology</li>
 </ul>
 <h2 id="work-experience">Work Experience</h2>
 <h3 id="june-2016---present">June 2016 - Present</h3>
-<p>: <strong>Data Sales Specialist</strong>; <a href="http://www.btireland.com" target="_blank">BT</a> (Dublin)</p>
-<p>I provide technical pre sales assistance to our Account Directors and Desk Based Sales Account managers. The role involves a lot of face to face meetings with external customers with the aim of providing them with assistance in ordering new data services from BT Ireland as well as promoting our data connectivity capabilities with a view to growing the business. Some other central skills involved in the roll would include;</p>
+<p>: <strong>Data Sales Specialist</strong>; <a
+href="http://www.btireland.com" target="_blank">BT</a> (Dublin)</p>
+<p>I provide technical pre sales assistance to our Account Directors and
+Desk Based Sales Account managers. The role involves a lot of face to
+face meetings with external customers with the aim of providing them
+with assistance in ordering new data services from BT Ireland as well as
+promoting our data connectivity capabilities with a view to growing the
+business. Some other central skills involved in the roll would
+include;</p>
 <ul>
-<li>Configuring and pricing Managed WAN connectivity and services end to end</li>
-<li>Working with commercial finance teams to devise an agreeable pricing model for new customer services</li>
-<li>Understanding the requirements to meet so as to ensure sufficient margin is made on all sales</li>
-<li>Scoping and designing simplex, complex and bespoke solutions for our customers</li>
+<li>Configuring and pricing Managed WAN connectivity and services end to
+end</li>
+<li>Working with commercial finance teams to devise an agreeable pricing
+model for new customer services</li>
+<li>Understanding the requirements to meet so as to ensure sufficient
+margin is made on all sales</li>
+<li>Scoping and designing simplex, complex and bespoke solutions for our
+customers</li>
 </ul>
 <h3 id="march-2004---may-2016">March 2004 - May 2016</h3>
-<p>: <strong>Network Optimization Engineer</strong>; <a href="http://www.btireland.com" target="_blank">BT</a> (Dublin)</p>
-<p>I provided 2nd and 3rd level support for our Layer 2 and Layer 3 network services. Support was provided to our internal customers such as the Network Control Centre and the Global Business Helpdesk as well as external customers directly.</p>
+<p>: <strong>Network Optimization Engineer</strong>; <a
+href="http://www.btireland.com" target="_blank">BT</a> (Dublin)</p>
+<p>I provided 2nd and 3rd level support for our Layer 2 and Layer 3
+network services. Support was provided to our internal customers such as
+the Network Control Centre and the Global Business Helpdesk as well as
+external customers directly.</p>
 <ul>
-<li><p>Responsible for support and consultation on all BT Ireland Domestic ISP, Metro Ethernet, Government, MPLS, Layer 2 Transport and Data Communications Management Network (DCN).</p></li>
-<li><p>Specializations in Cisco IOS, IOS-XR, IOS-XE and NXOS as well as ADVA, Nokia/Alcatel Lucent Service Router and Juniper router/switch platforms (JUNOS).</p></li>
-<li><p>Strong knowledge of Linux and highly experienced user of any Unix (SCO/etc), MacOS and Microsoft operating systems. I am a frequent user of shell scripting and have built basic scripts for mass configuration deployment using simple expect scripts, as well as Ansible with NAPALM for automated configuration generation and deployment.</p></li>
-<li><p>Technical Lead for our domestic ISP network from an operational integrity perspective and have attended RIPE conferences on behalf of the LIR (Local Internet Registry).</p></li>
-<li><p>Other technologies I’ve dealt with in the role include Microsoft Sharepoint, IPv6, SDH, PDH, DWDM, Radio, Fiber Optics, DSL, L2TP, PPPoE, 802.1*, LibreNMS, Cacti, Cricket, OpenNMS and many more.</p></li>
+<li><p>Responsible for support and consultation on all BT Ireland
+Domestic ISP, Metro Ethernet, Government, MPLS, Layer 2 Transport and
+Data Communications Management Network (DCN).</p></li>
+<li><p>Specializations in Cisco IOS, IOS-XR, IOS-XE and NXOS as well as
+ADVA, Nokia/Alcatel Lucent Service Router and Juniper router/switch
+platforms (JUNOS).</p></li>
+<li><p>Strong knowledge of Linux and highly experienced user of any Unix
+(SCO/etc), MacOS and Microsoft operating systems. I am a frequent user
+of shell scripting and have built basic scripts for mass configuration
+deployment using simple expect scripts, as well as Ansible with NAPALM
+for automated configuration generation and deployment.</p></li>
+<li><p>Technical Lead for our domestic ISP network from an operational
+integrity perspective and have attended RIPE conferences on behalf of
+the LIR (Local Internet Registry).</p></li>
+<li><p>Other technologies I’ve dealt with in the role include Microsoft
+Sharepoint, IPv6, SDH, PDH, DWDM, Radio, Fiber Optics, DSL, L2TP, PPPoE,
+802.1*, LibreNMS, Cacti, Cricket, OpenNMS and many more.</p></li>
 <li><p>Experience working with Cisco ASA Firewall technologies.</p></li>
-<li><p>Designed a new IPv6 addressing scheme for the ISP network and was responsible for its full rollout.</p></li>
+<li><p>Designed a new IPv6 addressing scheme for the ISP network and was
+responsible for its full rollout.</p></li>
 </ul>
 <h3 id="may-2002---march-2004">May 2002 - March 2004</h3>
-<p>: <strong>Network Controller</strong>; <a href="http://www.btireland.com" target="_blank">BT</a> (Dublin)</p>
-<p>Responsible for the management of the major networks of the then BT Ignite Group from our Dublin Control Centre. The main networks I fault managed were:</p>
+<p>: <strong>Network Controller</strong>; <a
+href="http://www.btireland.com" target="_blank">BT</a> (Dublin)</p>
+<p>Responsible for the management of the major networks of the then BT
+Ignite Group from our Dublin Control Centre. The main networks I fault
+managed were:</p>
 <ul>
-<li>Lucent &amp; Nortel PDH/SDH - Dublin Metro, and National backbone Telecommunications network of EsatBT. This requires a working knowledge of Nortel TN1x, 4x, 4xe, 16x, 16xe, 64x, etc.</li>
+<li>Lucent &amp; Nortel PDH/SDH - Dublin Metro, and National backbone
+Telecommunications network of EsatBT. This requires a working knowledge
+of Nortel TN1x, 4x, 4xe, 16x, 16xe, 64x, etc.</li>
 <li>IP, Frame-relay, ATM, wireless network management.</li>
 <li>Voice Switch alarm management for DMS and AXE technology.</li>
 <li>Radio/Microwave link alarm management.</li>
 <li>EsatBT Corporate and Consumer ISP alarm management.</li>
 </ul>
 <h2 id="volunteering">Volunteering</h2>
-<p>: <strong>Network Infrastructure Team</strong> at <a href="http://www.btyoungscientist.com" target="_blank">BTYSTE</a>:</p>
-<p>I have been a volunteer since 2002 at the BT Young Scientist and Technologist Exhibition in Dublin and have been part of the core organizational team since around 2008. Since 2004 I have been part of the Network Infrastructure and Support team for the exhibition. This role involves;</p>
+<p>: <strong>Network Infrastructure Team</strong> at <a
+href="http://www.btyoungscientist.com" target="_blank">BTYSTE</a>:</p>
+<p>I have been a volunteer since 2002 at the BT Young Scientist and
+Technologist Exhibition in Dublin and have been part of the core
+organizational team since around 2008. Since 2004 I have been part of
+the Network Infrastructure and Support team for the exhibition. This
+role involves;</p>
 <ul>
-<li>Complete campus network design, plan and implementation of a primarily wireless access infrastructure for students, exhibitors and guests of which there are approximately 45,000 people to cater for.</li>
-<li>Worked with Cisco Access Point deployment, Cisco Wireless controller configuration and deployment, Cisco PRIME Infrastructure as well as delivering a completely redundant layer 2 access network. In more recent years, we also worked with Cisco Meraki MX, MS and MR deployment.</li>
-<li>I am the lead engineer on the Internet Access deployment for the site.</li>
-<li>Deployment of an IPT suite for the Media Centre on site and experience working on Cisco Call Manager technologies.</li>
+<li>Complete campus network design, plan and implementation of a
+primarily wireless access infrastructure for students, exhibitors and
+guests of which there are approximately 45,000 people to cater for.</li>
+<li>Worked with Cisco Access Point deployment, Cisco Wireless controller
+configuration and deployment, Cisco PRIME Infrastructure as well as
+delivering a completely redundant layer 2 access network. In more recent
+years, we also worked with Cisco Meraki MX, MS and MR deployment.</li>
+<li>I am the lead engineer on the Internet Access deployment for the
+site.</li>
+<li>Deployment of an IPT suite for the Media Centre on site and
+experience working on Cisco Call Manager technologies.</li>
 </ul>
 <h2 id="hobbies-and-interests">Hobbies and interests</h2>
 <ul>
-<li>I enjoy playing competitive Gaelic Football and Hurling for Erin’s Isle GAA club, where I have won many medals, and captained several teams. I currently play Senior Hurling and Intermediate Football for the club.</li>
-<li><strong><em>Erin’s Isle GAA Club PRO</em></strong> I am also the outgoing PRO of my club and in turn a member of the Executive Committee. The executive committee is a group of 12 men and women who have been elected by fellow members to control the running and up keep of the club.</li>
-<li><strong><em>BTYS&amp;TE</em></strong> I am a volunteer annually at the BT Young Scientist and Technologist Exhibition at the RDS.</li>
-<li><strong><em>Computing</em></strong> I have a huge interest in all things computing. As such I regularly help friends and colleagues with problems that may arise with their machines, both hardware and software related. I also run my own HomeLAN with native IPv6 connectivity.</li>
-<li><strong><em>Networking/Community Building</em></strong> Currently I am a member of the Program Committee for the Irish Network Operators Group (INOG) and have been actively participating in the INEX and RIPE communities since at least 2012.</li>
+<li>I enjoy playing competitive Gaelic Football and Hurling for Erin’s
+Isle GAA club, where I have won many medals, and captained several
+teams. I currently play Senior Hurling and Intermediate Football for the
+club.</li>
+<li><strong><em>Erin’s Isle GAA Club PRO</em></strong> I am also the
+outgoing PRO of my club and in turn a member of the Executive Committee.
+The executive committee is a group of 12 men and women who have been
+elected by fellow members to control the running and up keep of the
+club.</li>
+<li><strong><em>BTYS&amp;TE</em></strong> I am a volunteer annually at
+the BT Young Scientist and Technologist Exhibition at the RDS.</li>
+<li><strong><em>Computing</em></strong> I have a huge interest in all
+things computing. As such I regularly help friends and colleagues with
+problems that may arise with their machines, both hardware and software
+related. I also run my own HomeLAN with native IPv6 connectivity.</li>
+<li><strong><em>Networking/Community Building</em></strong> Currently I
+am a member of the Program Committee for the Irish Network Operators
+Group (INOG) and have been actively participating in the INEX and RIPE
+communities since at least 2012.</li>
 </ul>
 <h2 id="referees-and-references">Referees and references</h2>
 <p><strong><em>Available on request</em></strong></p>
